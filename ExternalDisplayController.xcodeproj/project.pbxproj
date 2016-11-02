@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56CA3EBA1DBD1CED00E7E530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA3EB91DBD1CED00E7E530 /* AppDelegate.swift */; };
+		56CA3EBC1DBD1CED00E7E530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CA3EBB1DBD1CED00E7E530 /* Assets.xcassets */; settings = {ASSET_TAGS = (New, ); }; };
+		56CA3EBF1DBD1CED00E7E530 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CA3EBD1DBD1CED00E7E530 /* MainMenu.xib */; };
+		56CA3ED91DBD1DF200E7E530 /* ORSSerialPort.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = 56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */; };
+		56CA3EEC1DBD5BEA00E7E530 /* ORSSerial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CA3ED61DBD1DE200E7E530 /* ORSSerial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568ACD641DBD5E900029902D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCA89111A2BB106009285EB;
+			remoteInfo = ORSSerial;
+		};
+		56CA3ED51DBD1DE200E7E530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9DCA89121A2BB106009285EB;
+			remoteInfo = ORSSerial;
+		};
+		56CA3ED71DBD1DE200E7E530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D7472131B6D7767002D8B10;
+			remoteInfo = "ORSSerialPort Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56CA3EB61DBD1CED00E7E530 /* ExternalDisplayController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExternalDisplayController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CA3EB91DBD1CED00E7E530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56CA3EBB1DBD1CED00E7E530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56CA3EBE1DBD1CED00E7E530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		56CA3EC01DBD1CED00E7E530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ORSSerialPort.xcodeproj; path = "Frameworks/ORSSerialPort/Framework Project/ORSSerialPort.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56CA3EB31DBD1CED00E7E530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA3EEC1DBD5BEA00E7E530 /* ORSSerial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56CA3EAD1DBD1CED00E7E530 = {
+			isa = PBXGroup;
+			children = (
+				56CA3EB81DBD1CED00E7E530 /* ExternalDisplayController */,
+				56CA3EB71DBD1CED00E7E530 /* Products */,
+				56CA3ECF1DBD1DE200E7E530 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56CA3EB71DBD1CED00E7E530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CA3EB61DBD1CED00E7E530 /* ExternalDisplayController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56CA3EB81DBD1CED00E7E530 /* ExternalDisplayController */ = {
+			isa = PBXGroup;
+			children = (
+				56CA3EB91DBD1CED00E7E530 /* AppDelegate.swift */,
+				56CA3EBB1DBD1CED00E7E530 /* Assets.xcassets */,
+				56CA3EBD1DBD1CED00E7E530 /* MainMenu.xib */,
+				56CA3EC01DBD1CED00E7E530 /* Info.plist */,
+			);
+			path = ExternalDisplayController;
+			sourceTree = "<group>";
+		};
+		56CA3ECF1DBD1DE200E7E530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56CA3ED11DBD1DE200E7E530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CA3ED61DBD1DE200E7E530 /* ORSSerial.framework */,
+				56CA3ED81DBD1DE200E7E530 /* ORSSerialPort Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56CA3EB51DBD1CED00E7E530 /* ExternalDisplayController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CA3EC31DBD1CED00E7E530 /* Build configuration list for PBXNativeTarget "ExternalDisplayController" */;
+			buildPhases = (
+				56CA3EB21DBD1CED00E7E530 /* Sources */,
+				56CA3EB31DBD1CED00E7E530 /* Frameworks */,
+				56CA3EB41DBD1CED00E7E530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568ACD651DBD5E900029902D /* PBXTargetDependency */,
+			);
+			name = ExternalDisplayController;
+			productName = ExternalDisplayController;
+			productReference = 56CA3EB61DBD1CED00E7E530 /* ExternalDisplayController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56CA3EAE1DBD1CED00E7E530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "-";
+				TargetAttributes = {
+					56CA3EB51DBD1CED00E7E530 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 56CA3EB11DBD1CED00E7E530 /* Build configuration list for PBXProject "ExternalDisplayController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56CA3EAD1DBD1CED00E7E530;
+			productRefGroup = 56CA3EB71DBD1CED00E7E530 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 56CA3ED11DBD1DE200E7E530 /* Products */;
+					ProjectRef = 56CA3ED01DBD1DE200E7E530 /* ORSSerialPort.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				56CA3EB51DBD1CED00E7E530 /* ExternalDisplayController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		56CA3ED61DBD1DE200E7E530 /* ORSSerial.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ORSSerial.framework;
+			remoteRef = 56CA3ED51DBD1DE200E7E530 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		56CA3ED81DBD1DE200E7E530 /* ORSSerialPort Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ORSSerialPort Tests.xctest";
+			remoteRef = 56CA3ED71DBD1DE200E7E530 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CA3EB41DBD1CED00E7E530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA3EBC1DBD1CED00E7E530 /* Assets.xcassets in Resources */,
+				56CA3EBF1DBD1CED00E7E530 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CA3EB21DBD1CED00E7E530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CA3EBA1DBD1CED00E7E530 /* AppDelegate.swift in Sources */,
+				56CA3ED91DBD1DF200E7E530 /* ORSSerialPort.xcodeproj in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568ACD651DBD5E900029902D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerial;
+			targetProxy = 568ACD641DBD5E900029902D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56CA3EBD1DBD1CED00E7E530 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CA3EBE1DBD1CED00E7E530 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56CA3EC11DBD1CED00E7E530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56CA3EC21DBD1CED00E7E530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		56CA3EC41DBD1CED00E7E530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalDisplayController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Georg.ExternalDisplayController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56CA3EC51DBD1CED00E7E530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExternalDisplayController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Georg.ExternalDisplayController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56CA3EB11DBD1CED00E7E530 /* Build configuration list for PBXProject "ExternalDisplayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CA3EC11DBD1CED00E7E530 /* Debug */,
+				56CA3EC21DBD1CED00E7E530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CA3EC31DBD1CED00E7E530 /* Build configuration list for PBXNativeTarget "ExternalDisplayController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CA3EC41DBD1CED00E7E530 /* Debug */,
+				56CA3EC51DBD1CED00E7E530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56CA3EAE1DBD1CED00E7E530 /* Project object */;
+}
